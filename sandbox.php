@@ -9,6 +9,7 @@ echo "<body>";
 echo "<div class='topnav'>";
 echo "<a href='#wifispeeds'>WifiSpeeds</a>";
 echo "<a href='#sandbox'>ChessTracker</a>";
+echo "<a href='#blog'>Blog</a>";
 echo "</div>";
 
 echo "<div class='flex-container'>";
@@ -27,11 +28,17 @@ echo "<li>Improved x-ticks for times becoming too busy, looking to group by mont
 echo "<li>Additional analytics, such as win rate per color, longest win/loss streak, color frequency and more</li>";
 echo "</ul>";
 
-echo "<img src='Elo_plot_Blitz-5_202211301922.png'>";
+echo "<img src='Elo_plot_Blitz_202301071446.png'>";
 
-echo "<img src='Elo_pie_Blitz-5_202211271913.png'>";
+echo "<div class='inner-flex-cont'>";
 
-echo "<h4>Blitz 5 Notes</h4>";
+echo "<img src='WinLoss_pie_Blitz_202301071446.png'>";
+
+echo "<img src='BW_score_pie_Blitz_202301071446.png'>";
+
+echo "</div>";
+
+echo "<h4>Blitz Notes</h4>";
 
 echo "<ul>";
 echo "<li>Started at 1000 which quickly dropped, since then pretty steady</li>";
@@ -43,7 +50,7 @@ echo "</ul>";
 
 echo "<img src='Elo_chart_Rapid-10_202211211908.png'>";
 
-echo "<h4>Blitz 5 Notes</h4>";
+echo "<h4>Blitz 10 Notes</h4>";
 echo "<ul>";
 echo "<li>Not playing much Rapid 10 anymore due to games taking too much time if only have half an hour to play</li>";
 echo "</ul>";
