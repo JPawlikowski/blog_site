@@ -28,13 +28,13 @@ echo "<li>Improved x-ticks for times becoming too busy, looking to group by mont
 echo "<li>Additional analytics, such as win rate per color, longest win/loss streak, color frequency and more</li>";
 echo "</ul>";
 
-echo "<img src='Elo_plot_Blitz_202301141756.png'>";
+echo "<img src='Elo_plot_Blitz_202301190006.png'>";
 
 echo "<div class='inner-flex-cont'>";
 
-echo "<img src='WinLoss_pie_Blitz_202301141756.png'>";
+echo "<img src='WinLoss_pie_Blitz_202301190006.png'>";
 
-echo "<img src='BW_score_pie_Blitz_202301141756.png'>";
+echo "<img src='BW_score_pie_Blitz_202301190006.png'>";
 
 echo "</div>";
 
