@@ -28,13 +28,13 @@ echo "<li>Improved x-ticks for times becoming too busy, looking to group by mont
 echo "<li>Additional analytics, such as win rate per color, longest win/loss streak, color frequency and more</li>";
 echo "</ul>";
 
-echo "<img src='Elo_plot_Blitz_202301190006.png'>";
+echo "<img src='Elo_plot_Blitz_202301272200.png'>";
 
 echo "<div class='inner-flex-cont'>";
 
-echo "<img src='WinLoss_pie_Blitz_202301190006.png'>";
+echo "<img src='WinLoss_pie_Blitz_202301272200.png'>";
 
-echo "<img src='BW_score_pie_Blitz_202301190006.png'>";
+echo "<img src='BW_score_pie_Blitz_202301272200.png'>";
 
 echo "</div>";
 
@@ -54,6 +54,17 @@ echo "<h4>Blitz 10 Notes</h4>";
 echo "<ul>";
 echo "<li>Not playing much Rapid 10 anymore due to games taking too much time if only have half an hour to play</li>";
 echo "</ul>";
+
+echo "<h4>High level project notes</h4>";
+echo "<ul>";
+echo "<li>Every game is recorded into a spreadsheet which tracks: gametype, game time, black/white, score before, score after and a comment</li>";
+echo "<li>A main runner script 'ChessData' parses this spreadsheet (exported as CSV) and call an extractor as well as a plotter function</li>";
+echo "<li>The extractor function summarizes game data by type</li>";
+echo "<li>The plotter creates the plot and pie charts based on the data</li>";
+echo "<li>High Level Function Flow below : </li>";
+echo "</ul>";
+
+echo "<img src='ChessDataFlowV1.0_01192023.jpg'>";
 
 echo "</div>";
 
