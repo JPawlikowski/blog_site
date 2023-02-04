@@ -9,6 +9,7 @@ echo "<body>";
 echo "<div class='topnav'>";
 echo "<a href='http://jakevalue.com/wifispeeds.php'>WifiSpeeds</a>";
 echo "<a href='http://jakevalue.com//sandbox.php'>ChessTracker</a>";
+echo "<a href='http://jakevalue.com//GS1Checkdigit.php'>CheckDigit</a>";
 echo "<a href='http://jakevalue.com//blog.php'>Blog</a>";
 echo "</div>";
 
@@ -18,7 +19,7 @@ echo "<h2>Chess Tracker</h2>";
 
 echo "<ul>";
 echo "<li>Python tool written to track and visualize Chess ELO ranking and progress insight</li>";
-echo "<li>Code and more information available at : <a>https://github.com/JPawlikowski/Chess_Tracking</a></li>";
+echo "<li>Code and more information available at : <a>https://github.com/JPawlikowski/Chess_Tracking</a>github/JPawlikowski/Chess_Tracking</li>";
 echo "</ul>";
 
 echo "<h3>Upcoming features</h3>";
@@ -26,15 +27,16 @@ echo "<h3>Upcoming features</h3>";
 echo "<ul>";
 echo "<li>Improved x-ticks for times becoming too busy, looking to group by month</li>";
 echo "<li>Additional analytics, such as win rate per color, longest win/loss streak, color frequency and more</li>";
+echo "<li>Blue: Blitz-5 , Green: Blitz-3</li>";
 echo "</ul>";
 
-echo "<img src='Elo_plot_Blitz_202301272200.png'>";
+echo "<img src='Elo_plot_Blitz_202302012155.png'>";
 
 echo "<div class='inner-flex-cont'>";
 
-echo "<img src='WinLoss_pie_Blitz_202301272200.png'>";
+echo "<img src='WinLoss_pie_Blitz_202302012155.png'>";
 
-echo "<img src='BW_score_pie_Blitz_202301272200.png'>";
+echo "<img src='BW_score_pie_Blitz_202302012155.png'>";
 
 echo "</div>";
 
