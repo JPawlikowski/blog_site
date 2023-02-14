@@ -1,9 +1,10 @@
+
 function checkDigitFunc() {
     //Sample UPC - 103600024145 (without check digit) -> Calculates to a 6
     let upc = document.getElementById('upctext').value;
     let upc_length = upc.length;
-    if (upc_length < 11) {
-        document.getElementById('output2').innerHTML = 'UPC not long enough, min length 11';
+    if (upc_length < 11 || upc_length > 13) {
+        document.getElementById('output2').innerHTML = 'UPC provided not withing length range, 11<=UPC<=13';
         return
     } 
     let header_text = 'Calculating check digit for : ';

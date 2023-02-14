@@ -11,9 +11,9 @@ echo "<script src='onCallSources.js'></script>";
 
 echo "<div class='topnav'>";
 echo "<a href='http://jakevalue.com/wifispeeds.php'>WifiSpeeds</a>";
-echo "<a href='http://jakevalue.com//sandbox.php'>ChessTracker</a>";
-echo "<a href='http://jakevalue.com//GS1Checkdigit.php'>CheckDigit</a>";
-echo "<a href='http://jakevalue.com//blog.php'>Blog</a>";
+echo "<a href='http://jakevalue.com/sandbox.php'>ChessTracker</a>";
+echo "<a href='http://jakevalue.com/GS1checkdigit.php'>CheckDigit</a>";
+echo "<a href='http://jakevalue.com/blog.php'>Blog</a>";
 echo "</div>";
 
 echo "<div class='flex-container'>";
@@ -30,7 +30,7 @@ echo "<h3 id='test'>Enter GTIN (length 11, 12, 13, 14) </h3>";
 
 echo "<input id='upctext' type='text'></input>";
 
-echo "<input type='button' onclick='checkDigitFunc(this)' value='return'></input>";
+echo "<input type='button' id='checkDigitReturnBtn' onclick='checkDigitFunc(this)' value='return'></input>";
 
 echo "<p id='output'></p>";
 echo "<p id='output1'></p>";
