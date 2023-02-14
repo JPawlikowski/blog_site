@@ -43,6 +43,6 @@ body {
     color:blue
 }
 
-.checkDigitReturnBtn {
+#checkDigitReturnBtn {
 	margin-top: 1%;
 }
