@@ -5,6 +5,9 @@ function checkDigitFunc() {
     let upc_length = upc.length;
     if (upc_length < 11 || upc_length > 13) {
         document.getElementById('output2').innerHTML = 'UPC provided not withing length range, 11<=UPC<=13';
+
+        document.getElementById('output').innerHTML = '';
+        document.getElementById('output1').innerHTML = '';
         return
     } 
     let header_text = 'Calculating check digit for : ';
