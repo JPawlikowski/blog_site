@@ -2,7 +2,6 @@
 <?php
 echo "<head>";
 echo "<link href='style.css' rel='stylesheet'>";
-
 echo "</head>";
 
 echo "<body>";
