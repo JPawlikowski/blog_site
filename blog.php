@@ -9,6 +9,7 @@ echo "<div class='topnav'>";
 echo "<a href='http://jakevalue.com/wifispeeds.php'>WifiSpeeds</a>";
 echo "<a href='http://jakevalue.com/sandbox.php'>ChessTracker</a>";
 echo "<a href='http://jakevalue.com/GS1checkdigit.php'>CheckDigit</a>";
+echo "<a href='http://jakevalue.com/creatingAChessSim.php'>creatingAChessSim</a>";
 echo "<a href='http://jakevalue.com/blog.php'>Blog</a>";
 echo "</div>";
 
