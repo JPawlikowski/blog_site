@@ -14,6 +14,7 @@ echo "<a href='http://jakevalue.com/sandbox.php'>ChessTracker</a>";
 echo "<a href='http://jakevalue.com/GS1checkdigit.php'>CheckDigit</a>";
 echo "<a href='http://jakevalue.com/creatingAChessSim.php'>creatingAChessSim</a>";
 echo "<a href='http://jakevalue.com/blog.php'>Blog</a>";
+echo "<a href='http://jakevalue.com/sampleRequests.php'>WMS</a>";
 echo "</div>";
 
 echo "<div class='flex-container'>";
@@ -41,6 +42,8 @@ echo "<ul>";
 echo "<li>Information about calculation process can be found at : <a href='https://en.wikipedia.org/wiki/Check_digit'>wikipedia/checkdigit</a></li>";
 echo "<li>Official calculator : <a href='https://www.gs1.org/services/check-digit-calculator'>GS1 Check Digit Calculator</li>";
 echo "</ul>";
+
+echo "</div>";
 
 echo "</body>";
 ?>
