@@ -15,6 +15,20 @@ body {
 	align-items: center;
 }
 
+.flex-container hr {
+	width: 70%;
+}
+
+.orderUploadArea {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 50%;
+	padding: 0;
+	margin: 0;
+	align-items: center;
+}
+
 .inner-flex-cont {
 	display: flex;
 	
