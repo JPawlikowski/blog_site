@@ -31,13 +31,13 @@ echo "<li>Additional analytics, such as win rate per color, longest win/loss str
 echo "<li>Blue: Blitz-5 , Green: Blitz-3</li>";
 echo "</ul>";
 
-echo "<img src='Elo_plot_Blitz_202310232125.png'>";
+echo "<img src='Elo_plot_Blitz_202311262142.png'>";
 
 echo "<div class='inner-flex-cont'>";
 
-echo "<img src='WinLoss_pie_Blitz_202310232125.png'>";
+echo "<img src='WinLoss_pie_Blitz_202311262142.png'>";
 
-echo "<img src='BW_score_pie_Blitz_202310232125.png'>";
+echo "<img src='BW_score_pie_Blitz_202311262142.png'>";
 
 echo "</div>";
 
